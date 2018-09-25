@@ -16,7 +16,7 @@ public class IndexController {
 	@RequestMapping("/")
 	public ModelAndView root(){
 		ModelAndView mav = new ModelAndView();
-		mav.addObject("title", "首页");
+		mav.addObject("title", "首页啊");
 		mav.setViewName("index");
 		return mav;
 	}
